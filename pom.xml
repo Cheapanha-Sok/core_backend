@@ -20,7 +20,7 @@
     <repository>
       <id>github</id>
       <name>Git hub panha Apache Maven Packages</name>
-      <url>https://github.com/Cheapanha-Sok/core_backend</url>
+      <url>https://maven.pkg.github.com/Cheapanha-Sok/core_backend</url>
     </repository>
   </distributionManagement>
 
