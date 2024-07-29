@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 @NoRepositoryBean
-interface BaseRepository<T, ID> extends Repository<T, ID>, JpaSpecificationExecutor<T> {
+public interface BaseRepository<T, ID> extends Repository<T, ID>, JpaSpecificationExecutor<T> {
     Optional<T> findById(ID id);
     <S extends T> S save(S entity);
     <S extends T> Iterable<S> saveAll(Iterable<S> entities);

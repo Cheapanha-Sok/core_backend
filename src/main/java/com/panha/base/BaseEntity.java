@@ -38,11 +38,35 @@ public class BaseEntity {
         this.created = created;
     }
 
+    public Long getCreatedBy() {
+        return createdBy;
+    }
+
+    public void setCreatedBy(Long createdBy) {
+        this.createdBy = createdBy;
+    }
+
     public Date getUpdated() {
         return updated;
     }
 
-    public void setUpdatedAt(Date updated) {
+    public void setUpdated(Date updated) {
         this.updated = updated;
+    }
+
+    public Long getUpdatedBy() {
+        return updatedBy;
+    }
+
+    public void setUpdatedBy(Long updatedBy) {
+        this.updatedBy = updatedBy;
+    }
+
+    public Boolean getStatus() {
+        return status;
+    }
+
+    public void setStatus(Boolean status) {
+        this.status = status;
     }
 }
