@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01e5b784-915b-4137-95a3-b0b6fca66b5a" name="Changes" comment="update gettter and setter" />
+    <list default="true" id="01e5b784-915b-4137-95a3-b0b6fca66b5a" name="Changes" comment="update getter and setter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/panha/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/panha/base/BaseEntity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +82,9 @@
       <workItem from="1720428921823" duration="3421000" />
       <workItem from="1720432798864" duration="113000" />
       <workItem from="1722240748581" duration="16000" />
-      <workItem from="1722241037645" duration="351000" />
+      <workItem from="1722241037645" duration="3507000" />
+      <workItem from="1722256877924" duration="872000" />
+      <workItem from="1722301022553" duration="366000" />
     </task>
     <task id="LOCAL-00001" summary="update pom.xml">
       <option name="closed" value="true" />
@@ -97,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722241271712</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update getter and setter">
+      <option name="closed" value="true" />
+      <created>1722241556642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722241556642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="update gettter and setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gettter and setter" />
+    <MESSAGE value="update getter and setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="update getter and setter" />
   </component>
 </project>
