@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01e5b784-915b-4137-95a3-b0b6fca66b5a" name="Changes" comment="update getter and setter">
+    <list default="true" id="01e5b784-915b-4137-95a3-b0b6fca66b5a" name="Changes" comment="update BaseEntity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/panha/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/panha/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,6 +86,11 @@
       <workItem from="1722241037645" duration="3507000" />
       <workItem from="1722256877924" duration="872000" />
       <workItem from="1722301022553" duration="366000" />
+      <workItem from="1722400067639" duration="202000" />
+      <workItem from="1723079900439" duration="24000" />
+      <workItem from="1723087637588" duration="2389000" />
+      <workItem from="1723123319077" duration="4295000" />
+      <workItem from="1723127895126" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="update pom.xml">
       <option name="closed" value="true" />
@@ -110,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722241556642</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update BaseEntity">
+      <option name="closed" value="true" />
+      <created>1722400191057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722400191057</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +134,7 @@
     <MESSAGE value="update pom.xml" />
     <MESSAGE value="update gettter and setter" />
     <MESSAGE value="update getter and setter" />
-    <option name="LAST_COMMIT_MESSAGE" value="update getter and setter" />
+    <MESSAGE value="update BaseEntity" />
+    <option name="LAST_COMMIT_MESSAGE" value="update BaseEntity" />
   </component>
 </project>
