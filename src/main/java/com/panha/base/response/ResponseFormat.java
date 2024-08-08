@@ -1,18 +1,19 @@
 package com.panha.base.response;
 
-import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
+import java.util.List;
+import org.springframework.data.domain.Page;
 
 public interface ResponseFormat {
-    ResponseDTO respondCustomStatus(Object data, HttpStatus status, String message);
+    <T> ResponseDTO respondCustomStatus(T data, HttpStatus status, String message);
 
-    ResponseDTO respondDynamic(Object data, HttpStatus status, String message, Long total);
+    <T> ResponseDTO respondDynamic(T data, HttpStatus status, String message, Long total);
 
-    ResponseDTO respondID(Object data, HttpStatus status, String message);
+    <T> ResponseDTO respondID(T data, HttpStatus status, String message);
 
-    ResponseDTO respondList(java.util.List<Object> data, HttpStatus status, String message);
+    <T> ResponseDTO respondList(List<T> data, HttpStatus status, String message);
 
-    ResponseDTO respondObj(Object data, HttpStatus status, String message);
+    <T> ResponseDTO respondObj(T data, HttpStatus status, String message);
 
     <T> ResponseDTO respondPage(Page<T> data, HttpStatus status, String message);
 }

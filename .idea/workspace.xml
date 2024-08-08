@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01e5b784-915b-4137-95a3-b0b6fca66b5a" name="Changes" comment="update BaseEntity">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/panha/base/response/JSONFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/panha/base/response/JSONFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/panha/base/response/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/panha/base/response/ResponseDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +91,7 @@
       <workItem from="1723087637588" duration="2389000" />
       <workItem from="1723123319077" duration="4295000" />
       <workItem from="1723127895126" duration="492000" />
+      <workItem from="1723130798430" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="update pom.xml">
       <option name="closed" value="true" />

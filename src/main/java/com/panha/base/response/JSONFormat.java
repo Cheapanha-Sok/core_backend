@@ -1,37 +1,35 @@
 package com.panha.base.response;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.data.domain.Page;
 
+import java.util.List;
+
 @Component
 public class JSONFormat implements ResponseFormat {
 
-    private static final HttpStatus DefaultHttpStatus = HttpStatus.OK;
-
     @Override
-    public ResponseDTO respondCustomStatus(Object data, HttpStatus status, String message) {
+    public <T> ResponseDTO respondCustomStatus(T data, HttpStatus status, String message) {
         return new ResponseDTO(status.value(), message, new java.util.Date(), data, null, null, null);
     }
 
     @Override
-    public ResponseDTO respondDynamic(Object data, HttpStatus status, String message, Long total) {
+    public <T> ResponseDTO respondDynamic(T data, HttpStatus status, String message, Long total) {
         return new ResponseDTO(status.value(), message, new java.util.Date(), data, null, total, null);
     }
 
     @Override
-    public ResponseDTO respondID(Object data, HttpStatus status, String message) {
+    public <T> ResponseDTO respondID(T data, HttpStatus status, String message) {
         return new ResponseDTO(status.value(), message, new java.util.Date(), data, null, null, null);
     }
 
     @Override
-    public ResponseDTO respondList(java.util.List<Object> data, HttpStatus status, String message) {
+    public <T> ResponseDTO respondList(List<T> data, HttpStatus status, String message) {
         return new ResponseDTO(status.value(), message, new java.util.Date(), null, data, null, null);
     }
 
     @Override
-    public ResponseDTO respondObj(Object data, HttpStatus status, String message) {
+    public <T> ResponseDTO respondObj(T data, HttpStatus status, String message) {
         return new ResponseDTO(status.value(), message, new java.util.Date(), data, null, null, null);
     }
 
