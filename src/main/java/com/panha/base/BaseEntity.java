@@ -1,5 +1,6 @@
 package com.panha.base;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;
@@ -16,22 +17,27 @@ import java.util.Date;
 public class BaseEntity {
 
     @CreatedDate
+    @JsonIgnore
     @Column(name = "created", updatable = false)
     private Date created;
 
     @CreatedBy
+    @JsonIgnore
     @Column(name = "created_by" , updatable = false)
     private Long createdBy;
 
     @LastModifiedDate
+    @JsonIgnore
     @Column(name = "updated")
     private Date updated;
 
     @LastModifiedBy
+    @JsonIgnore
     @Column(name = "last_modified_by")
     private Long updatedBy;
 
-    @Column
+
+    @JsonIgnore
     private Boolean status = true;
 
     public Date getCreated() {
